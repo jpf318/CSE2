@@ -14,12 +14,23 @@ public class RandomGames{
         myScanner = new Scanner (System.in); //Begin by importing and naming your scanner
 
         System.out.print("Enter R or r for Roulette, C or c for craps, P or p for pick a card: ");
+           if (myScanner.hasNext()){
+               char input = myScanner.next();
+               if (input == 'R' || input == 'r') {
+                   int roullete = Math.random()*36
+                   System.out.println("Roulette = "+roullete)
+               }
+                
+               else if (input == 'C' || input == 'c');
+               else if (input == 'P' || input == 'p');
+           }
             //boolean invalidInput = false;
             String random="";
             boolean input = myScanner.next();
-            int Roulette = (int)(Math.random()*36);
+            int roulette = (int)(Math.random()*36);
             switch (input) {
-                case 'R': case 'r':random = Roulette;
+                case 'R': case 'r': int roullete = (Math.random())*36
+                System.out println("Roulette = "+roulette)
                     break;
                 case 'C': case 'c':random = "";
                     break;
