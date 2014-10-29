@@ -134,7 +134,7 @@ public class NumberStack {
                 //Error message which will be prompted if the user is unable to input a value
                 System.out.println("Error: Your number is not in the designated range (1-9)");
             }
-            
+             
         } else {
             
             System.out.println("Error: You have not entered an integer");
